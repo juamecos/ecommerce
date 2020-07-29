@@ -1,9 +1,16 @@
 import React from "react"
+import Header from "./components/Header"
+import Homepage from "./pages/Hompepage"
+
+import "./default.scss"
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello world</h2>
+      <Header />
+      <div className="main">
+        <Homepage />
+      </div>
     </div>
   )
 }
