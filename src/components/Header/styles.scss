@@ -37,10 +37,16 @@
     }
 
     li {
+      display: inline-block;
       list-style-type: none;
+
+      &:not(:last-child) {
+        margin-right: 1.5rem;
+      }
 
       a {
         font-size: 1.8rem;
+        font-weight: 700;
         line-height: 1;
         color: #000;
         text-decoration: none;
